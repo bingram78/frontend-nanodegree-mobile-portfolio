@@ -1,0 +1,28 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "FEND Optimization project",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-pagespeed": "^2.0.1",
+    "ngrok": "^2.2.6"
+  },
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^1.0.1",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udacity/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/udacity/frontend-nanodegree-mobile-portfolio#readme"
+}
