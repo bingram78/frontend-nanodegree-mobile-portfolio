@@ -1,9 +1,10 @@
 ## Website Performance Optimization portfolio project
 
-This was part of a project for Udacity' Front End Development Nanodegree. The project description and directions are shown later for reference.
+This was part of a project for Udacity's Front End Development Nanodegree. The project description and directions are shown later for reference.
 
-### Changes made to project.
+### Changes Made
 
+#### PageSpeed Score portion
 1. Setup grunt to automate processes.
 1. Imagemin in grunt used to minify and compress images. Then, ImageOptim to further reduce size. Change image links to match minified image folders.
 1. One image resized in Gimp and exported to restrain image size.
@@ -11,7 +12,16 @@ This was part of a project for Udacity' Front End Development Nanodegree. The pr
 1. Removed Google Font import.
 1. Set media types for CSS that can be separated into other files. Prevents render blocking behavior.
 1. Async loading of JavaScript file in index.html to stop render blocking.
-1.
+
+*TODO: Uglify CSS and HTML, unCSS*
+
+#### Getting Rid of Jank portion
+1. Add will-change transform to views/css/style.css.
+1. Eliminate redundant code in resizePizzas function.
+1. Refactor functions for Force Layout issue.
+1. Refactor updatePositions function to help FPS.
+
+
 
 
 
