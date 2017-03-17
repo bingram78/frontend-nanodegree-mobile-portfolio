@@ -9,7 +9,7 @@ This was part of a project for Udacity's Front End Development Nanodegree. The p
 1. Imagemin in grunt used to minify and compress images. Then, ImageOptim to further reduce size. Change image links to match minified image folders.
 1. One image resized in Gimp and exported to restrain image size.
 1. Inline CSS to improve PageSpeed insight score. This seemed like a lot to inline but it helped prevent render blocking.
-1. Removed Google Font import.
+1. Removed Google Font import. *TODO: webfontloader and inline CSS with fonts using Grunt.
 1. Set media types for CSS that can be separated into other files. Prevents render blocking behavior.
 1. Async loading of JavaScript file in index.html to stop render blocking.
 
