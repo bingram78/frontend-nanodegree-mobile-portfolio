@@ -9,7 +9,7 @@ This was part of a project for Udacity's Front End Development Nanodegree. The p
 1. Imagemin in grunt used to minify and compress images. Then, ImageOptim to further reduce size. Change image links to match minified image folders.
 1. One image resized in Gimp and exported to restrain image size.
 1. Inline CSS to improve PageSpeed insight score. This seemed like a lot to inline but it helped prevent render blocking.
-1. Removed Google Font import. *TODO: webfontloader and inline CSS with fonts using Grunt.
+1. Inline Google Fonts styles to improve speed.
 1. Set media types for CSS that can be separated into other files. Prevents render blocking behavior.
 1. Async loading of JavaScript file in index.html to stop render blocking.
 
@@ -21,11 +21,11 @@ This was part of a project for Udacity's Front End Development Nanodegree. The p
 1. Refactor updatePositions function to help FPS.
 1. Include requestAnimationFrame in updatePositions and DOMContentLoaded sections to improve performance.
 
+*One note about the FPS is that speed is definitely affected by having the "Screenshots" checked on while testing. Having that checked lowered the FPS to ~30.
+Leaving the "Screenshots" unchecked brought the score up to 60FPS. That took a long time to discover and much frustration preceded that discovery.*
 
 
-
-
-
+******
 ******
 *Original project description and directions below!*
 
