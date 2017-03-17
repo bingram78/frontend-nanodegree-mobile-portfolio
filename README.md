@@ -5,7 +5,7 @@ This was part of a project for Udacity's Front End Development Nanodegree. The p
 ### Changes Made
 
 #### PageSpeed Score portion
-1. Setup grunt to automate processes.
+1. Setup grunt to automate imagemin processes.
 1. Imagemin in grunt used to minify and compress images. Then, ImageOptim to further reduce size. Change image links to match minified image folders.
 1. One image resized in Gimp and exported to restrain image size.
 1. Inline CSS to improve PageSpeed insight score. This seemed like a lot to inline but it helped prevent render blocking.
@@ -13,13 +13,13 @@ This was part of a project for Udacity's Front End Development Nanodegree. The p
 1. Set media types for CSS that can be separated into other files. Prevents render blocking behavior.
 1. Async loading of JavaScript file in index.html to stop render blocking.
 
-*TODO: Uglify CSS and HTML, unCSS*
+*could include: Uglify CSS and HTML, unCSS but project should meet specs without these. Would include in production environment.*
 
 #### Getting Rid of Jank portion
-1. Add will-change transform to views/css/style.css.
 1. Eliminate redundant code in resizePizzas function.
-1. Refactor functions for Force Layout issue.
+1. Refactor functions (resizePizzas) for Force Layout issue.
 1. Refactor updatePositions function to help FPS.
+1. Include requestAnimationFrame in updatePositions and DOMContentLoaded sections to improve performance.
 
 
 
