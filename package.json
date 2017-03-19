@@ -9,6 +9,7 @@
     "ngrok": "^2.2.6"
   },
   "devDependencies": {
+    "grunt-contrib-htmlmin": "^2.3.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "load-grunt-tasks": "^3.5.2"
   },
