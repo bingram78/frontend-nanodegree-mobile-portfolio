@@ -24,6 +24,24 @@ This was part of a project for Udacity's Front End Development Nanodegree. The p
 *One note about the FPS is that speed is definitely affected by having the "Screenshots" checked on while testing. Having that checked lowered the FPS to ~30.
 Leaving the "Screenshots" unchecked brought the score up to 60FPS. That took a long time to discover and much frustration preceded that discovery.*
 
+### Steps to Run:
+On local machine:
+1. Check out repository using git clone.
+1. Navigate to the directory, run a local server using python.
+  ``` bash
+  cd /Your-Path-to-folder
+  python -m SimpleHTTPServer 8000
+  ```
+1. Open web browser and navigate to 0.0.0.0:8000
+
+Using ngrok:
+1. Download and install [ngrok](https://ngrok.com/) to the top-level of the directory.
+1. Navigate to the directory and with the python server still running, start the ngrok remote server.
+  ``` bash
+  cd /Your-Path-to-folder
+  ./ngrok http 8000
+  ```
+1. ngrok will give a public website address that can be used in PageSpeed Insights.
 
 ******
 ******
